@@ -4,15 +4,21 @@
 **Latest Draft**:   
 **Previous Draft:**  
 **History:** [Commit History](https://github.com/trustoverip/tswg-trust-registry-service-profile)  
-**Task Force:** Trust Registry Task Force  
-**Organization:** Trust Over IP  
-**Editors**  Andor Kesselman, Sam Curren  
-**Chairs:** Andor Kesselman, Darrell o' Donnell, Antti Kettunen  
-**Contributors:** Darrel o' Donnell, Antti Kettunen, Sankarshan Mukhopadhyay, Dan Bachenheimer, Mathieu Glaude, Drummund Reed, Alex Tweeddale, Tim Bouma  
+**Task Force:** Trust Registry Task Force 
+**Organization:** Trust Over IP 
+**Editors**  Andor Kesselman, Sam Curren 
+**Chairs:** Andor Kesselman, Darrell o' Donnell, Antti Kettunen 
+**Contributors:** Darrel o' Donnell, Antti Kettunen, Sankarshan Mukhopadhyay, Dan Bachenheimer, Mathieu Glaude, Drummund Reed, Alex Tweeddale, Tim Bouma 
 **Feedback:** [Github Issues](https://github.com/trustoverip/tswg-trust-registry-service-profile/issues)  
 **Related Documents:** [Trust Registry Protocol](https://github.com/darrellodonnell/tswg-trust-registry-tf/tree/main/v2)  
 
-**Status Description**: This document is a preliminary draft and should not be regarded as a finalized version. It is subject to ongoing revisions and modifications, and its content may change significantly before reaching a final form. Please note that the information presented herein is not binding and is provided for reference and discussion purposes only. Your feedback and input are essential in shaping the final version of this document. We intend to add additional supporting material before the specification is finalized. 
+**Status Description**: This document is a preliminary draft and should not be
+regarded as a finalized version. It is subject to ongoing revisions and
+modifications, and its content may change significantly before reaching a final
+form. Please note that the information presented herein is not binding and is
+provided for reference and discussion purposes only. Your feedback and input are
+essential in shaping the final version of this document. We intend to add
+additional supporting material before the specification is finalized.
 
 ### Introduction
 
@@ -23,8 +29,9 @@ information, this approach enhances the capabilities of DIDs for decentralized
 and self-sovereign identity systems. Some of the possible advantages include: 
 
 - service and profile crawlers become possible, enabling better service
-discovery and interoperability across services. 
-- better descriptive power for individual services composibility of capabilities for succinct representation of capabilities.
+discovery and interoperability across services.
+- better descriptive power for individual services composibility of capabilities
+  for succinct representation of capabilities.
 
 ### Objective
 
@@ -34,6 +41,13 @@ context. Developed within the Trust Registry Task Force at Trust Over IP, this
 spec offers a straightforward yet effective discovery layer for both legacy and
 new trust registry services. The intended audience includes individuals or
 entities seeking to improve service interoperability with their existing services or on new services.
+
+### Problems We Solve
+
+* protocol versioning
+* exposing service capabilities
+* better service discovery
+* more metadata important for understanding service purpose
 
 ### Example
 
